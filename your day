@@ -1,0 +1,23 @@
+print("Happy birthday user")
+myname = input("What is your name: ")
+password = input("Enter your password: ")
+
+if myname == "jack" and password == "jack98":
+    print("Hi priya bua")
+    print("First of all, is your day good? Type 'GoOd'")
+
+    if input("How is your day going: ") == "GoOd":
+        print("That's great bua!")
+
+    elif input("Do you want to play a game: ") == "yes":
+        print("I'm gonna read your mind")
+        print("Now I have a number in my mind")
+        print("Now you don't know the number")
+        myjk = input("First, take a number in the range 1 to 10: ")
+        print("Now add 6 to your number, and your number is", str(int(myjk) + 6))
+        print("Now subtract 3 from your number, and your number is", str(int(myjk) - 3))
+        print("Now subtract your new number from your original number")
+        print("Now your result is 3")
+
+else:
+    print("Bye bye")
