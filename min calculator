@@ -1,0 +1,18 @@
+first = input("Enter your first number : ")
+ope = input("which oprator do you want to run (+,-,*,/)")
+second = input("Enter your second number : ")
+
+if ope == "+" :
+ print(first + second)
+
+elif ope == "-" :
+ print(first - second)
+
+ elif ope == "*" :
+ print(first * second)
+
+ elif ope == "/" :
+ print(first / second)
+
+ else:
+  print("invald opration")
